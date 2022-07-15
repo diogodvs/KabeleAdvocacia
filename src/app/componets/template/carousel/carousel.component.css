@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora:ital@1&display=swap");
+
+img {
+  width: 100vw;
+  height: calc(100vh - 77px);
+  object-fit: cover;
+  /* filter: opacity(.5); */
+  filter: opacity(0.4) drop-shadow(0 0 0 rgb(184, 178, 178));
+}
+h5 {
+  font-size: 65px;
+  margin-bottom: 100px;
+  font-family: "Cinzel Decorative", cursive;
+  color: #0d2432;
+  text-shadow:2px 2px 10px #4A4A4B;
+}
+p {
+  font-size: 30px;
+  margin-bottom: 100px;
+  font-family: "Lora", serif;
+  color: #0d2432;
+}

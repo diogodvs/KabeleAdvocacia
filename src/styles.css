@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import 'bootstrap/dist/css/bootstrap.min.css';
+/* @import url'bootstrap/dist/css/bootstrap.min.css'; */
 
+@import url('bootstrap/dist/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Lora&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+   --title:"Cinzel Decorative", cursive;
+   --sub-tile:"Lora", serif;
+}

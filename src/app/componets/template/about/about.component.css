@@ -1,0 +1,45 @@
+section{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background: url('/assets/images/about/bg.jpg') center center no-repeat; */
+  background-size: cover;
+
+}
+.about{
+  margin-top: 20px;
+  width: 40%;
+}
+.image{
+  position: relative;
+  padding: 10px;
+  width: 40%;
+
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+
+ width: 80%;
+ object-fit: cover;
+}
+h2{
+  margin-bottom: 20px;
+  font-family: "Cinzel Decorative", cursive;
+}
+p{
+  text-align: justify;
+  padding: 10px;
+  font-family: var(--sub-tile);
+  line-height: 30px;
+}
+svg{
+  position: absolute;
+  z-index: -1;
+  width: 500px;
+  left: -300px;
+}
