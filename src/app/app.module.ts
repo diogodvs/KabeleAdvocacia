@@ -7,6 +7,7 @@ import { NavBarComponent } from './componets/template/nav-bar/nav-bar.component'
 import { AboutComponent } from './componets/template/about/about.component';
 import { MainHomeComponent } from './componets/template/main-home/main-home.component';
 import { CarouselComponent } from './componets/template/carousel/carousel.component';
+import { ValuesComponent } from './componets/template/values/values.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CarouselComponent } from './componets/template/carousel/carousel.compon
     NavBarComponent,
     AboutComponent,
     MainHomeComponent,
-    CarouselComponent
+    CarouselComponent,
+    ValuesComponent
   ],
   imports: [
     BrowserModule,
