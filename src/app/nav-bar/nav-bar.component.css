@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif&family=Roboto&display=swap');
+
+img{
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+a{
+  margin-left: 10px;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(231, 215, 195);
+
+}
