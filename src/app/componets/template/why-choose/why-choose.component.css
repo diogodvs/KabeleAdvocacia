@@ -1,0 +1,61 @@
+section {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: url("/assets/images/why-choose/image-1.jpg") center center
+    no-repeat;
+  backdrop-filter: opacity(0) drop-shadow(0 0 0 rgb(184, 178, 178));
+  filter: grayscale(70%);
+  background-size: cover;
+}
+img {
+  z-index: -1;
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(184, 178, 178));
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto auto;
+  padding: 10px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.content h2,
+ul li {
+  font-family: var(--subtitle);
+  color: #0d2432;
+}
+
+strong {
+  font-family: var(--title);
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #0d2432;
+  text-shadow: 1px 1px 10px white;
+  list-style: none;
+  /* list-style-image: url("/assets/images/tick.png"); */
+}
+
+li::before {
+  content: url("/assets/images/ticker.png");
+  position: absolute;
+  transform: translateX(-21px);
+}
