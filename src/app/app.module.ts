@@ -9,6 +9,8 @@ import { MainHomeComponent } from './componets/template/main-home/main-home.comp
 import { CarouselComponent } from './componets/template/carousel/carousel.component';
 import { ValuesComponent } from './componets/template/values/values.component';
 import { WhyChooseComponent } from './componets/template/why-choose/why-choose.component';
+import { HomeComponent } from './pages/home/home.component';
+import { SobreComponent } from './pages/sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { WhyChooseComponent } from './componets/template/why-choose/why-choose.c
     MainHomeComponent,
     CarouselComponent,
     ValuesComponent,
-    WhyChooseComponent
+    WhyChooseComponent,
+    HomeComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
