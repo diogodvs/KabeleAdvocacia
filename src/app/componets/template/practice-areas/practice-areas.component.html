@@ -1,0 +1,29 @@
+
+<link rel="stylesheet" href="./practice-areas.component.css">
+
+<div class="container container-fluid d-flex justify-content-between">
+  <div class="card" style="width: 18rem;">
+    <img src="assets/images/practice-areas/dirconsu.png" class="card-img-top" alt="imagem Direito do Consumidor" height="150px">
+    <div class="card-body">
+      <h5 class="card-title text-center">Direito do Consumidor</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+      <a [routerLink]="['/cons']" routerLinkActive="active" class="btn btn-outline-primary">Saiba Mais...</a>
+    </div>
+  </div>
+  <div class="card " style="width: 18rem;">
+    <img src="assets/images/practice-areas/dirprev.png" class="card-img-top" alt="imagem Direito Previdenciário" height="150px">
+    <div class="card-body">
+      <h5 class="card-title text-center">Direito Previdenciário</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a  [routerLink]="['/prev']" routerLinkActive="active" class="btn btn-outline-primary">Saiba Mais...</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="assets/images/practice-areas/dirtrab.png" class="card-img-top" alt="imagem direito Trabalhista" height="150px">
+    <div class="card-body">
+      <h5 class="card-title text-center">Direito Trabalhista</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a  [routerLink]="['/trab']" routerLinkActive="active" class="btn btn-outline-primary">Saiba Mais...</a>
+    </div>
+  </div>
+</div>
