@@ -10,6 +10,9 @@ import { WhyChooseComponent } from './componets/template/why-choose/why-choose.c
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
 import { PracticeAreasComponent } from './componets/template/practice-areas/practice-areas.component';
+import { PrevComponent } from './pages/prev/prev.component';
+import { DirconsumidorComponent } from './pages/dirconsumidor/dirconsumidor.component';
+import { DirtrabalhistaComponent } from './pages/dirtrabalhista/dirtrabalhista.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { PracticeAreasComponent } from './componets/template/practice-areas/prac
     CarouselComponent,
     NavBarComponent,
     PracticeAreasComponent,
-    HomePageComponent
+    HomePageComponent,
+    PrevComponent,
+    DirconsumidorComponent,
+    DirtrabalhistaComponent
   ],
   imports: [
     BrowserModule,

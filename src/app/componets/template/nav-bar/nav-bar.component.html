@@ -9,6 +9,16 @@
 
       <div class="d-flex ">
         <a class="nav-link" [routerLink]="['home']">Home</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Areas de Atuação
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" [routerLink]="[ 'prev' ]" routerLinkActive="active">Direito Previdenciário</a></li>
+            <li><a class="dropdown-item" [routerLink]="[ 'trab' ]" routerLinkActive="active">Direito Trabalhista</a></li>
+            <li><a class="dropdown-item" [routerLink]="[ 'cons' ]" routerLinkActive="active">Direito do Consumidor</a></li>
+          </ul>
+        </li>
         <a class="nav-link" [routerLink]="['about']">Sobre</a>
         <a class="nav-link" href=""> Contato</a>
       </div>
