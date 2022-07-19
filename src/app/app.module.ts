@@ -13,6 +13,9 @@ import { PracticeAreasComponent } from './componets/template/practice-areas/prac
 import { PrevComponent } from './pages/prev/prev.component';
 import { DirconsumidorComponent } from './pages/dirconsumidor/dirconsumidor.component';
 import { DirtrabalhistaComponent } from './pages/dirtrabalhista/dirtrabalhista.component';
+import { FooterComponent } from './componets/template/footer/footer.component';
+import { ContatoComponent } from './pages/contato/contato.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { DirtrabalhistaComponent } from './pages/dirtrabalhista/dirtrabalhista.c
     HomePageComponent,
     PrevComponent,
     DirconsumidorComponent,
-    DirtrabalhistaComponent
+    DirtrabalhistaComponent,
+    FooterComponent,
+    ContatoComponent
+    
   ],
   imports: [
     BrowserModule,

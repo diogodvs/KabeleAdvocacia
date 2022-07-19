@@ -5,6 +5,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { PrevComponent } from './pages/prev/prev.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
 import { DirtrabalhistaComponent } from './pages/dirtrabalhista/dirtrabalhista.component'
+import { ContatoComponent } from './pages/contato/contato.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,9 @@ const routes: Routes = [
   },
   {
     path: 'trab', component: DirtrabalhistaComponent
+  },
+  {
+    path: 'contact', component: ContatoComponent
   }
 ];
 
