@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="./contato.component.css">
+<div class="container contato mt-4 d-flex">
+
+  <form class="p-3 mb-5 row mt-5" action="https://formsubmit.co/marcosKalebe.adv@gmail.com" method="POST">
+
+    <h2 class="text-center">Fale Conosco</h2>
+
+    <div>
+      <div class="col mb-4">
+        <label for="staticEmail" class="col-3">Nome</label>
+        <input class="col-7" type="text" name="nome" id="nome">
+      </div>
+
+      <div class="col mb-4">
+        <label for="staticEmail" class="col-3">Telefone</label>
+        <input class="col-7"  type="tel" name="fone" id="fone">
+      </div>
+
+      <div class="col mb-4">
+        <label for="staticEmail" class="col-3 ">E-mail</label>
+        <input class="col-7" type="email" name="email" id="email">
+      </div>
+
+      <div class="col align-top">
+        <label for="staticEmail" class="col-3 " aria-hidden="true">Mensagem</label>
+        <textarea class="col-7" name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+      </div>
+
+    </div>
+
+    <div class="text-center">
+      <button class="btn btn-outline-dark" routerLink="['contact']" type="submit" >Enviar</button>
+    </div>
+
+  </form>
+
+  <img src="assets/images/img-contato.jpg" alt="">
+
+</div>

@@ -11,5 +11,13 @@ a{
   font-size: 30px;
   text-align: center;
   color: rgb(231, 215, 195);
-
 }
+
+.dropdown-menu{
+  background-color:rgba(86, 67, 164, 0.1);
+}
+
+.dropdown-item{
+  color: black;
+}
+

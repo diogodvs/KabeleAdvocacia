@@ -1,0 +1,28 @@
+.contato{
+  height: 550px;
+  background-color: rgba(86, 67, 164, 0.1);
+  border-radius: 20px;
+
+}
+
+img{
+  width: 50%;
+  height: 95%;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.btn{
+  width: 200px;
+  height: 40px;
+}
+
+label, h2{
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 700;
+}
+
+input{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}

@@ -33,7 +33,7 @@ import { ContatoComponent } from './pages/contato/contato.component';
     DirtrabalhistaComponent,
     FooterComponent,
     ContatoComponent
-    
+
   ],
   imports: [
     BrowserModule,

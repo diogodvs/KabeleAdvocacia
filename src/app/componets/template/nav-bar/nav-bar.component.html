@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="nav-bar.component.css">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light mb-5" style="background-color: #e3f2fd;">
     <div class="nav navbar-nav container-fluid ">
       <div class="d-flex">
         <img src="/assets/images/LogoKalebeScontorno.png" alt="logo" width="60" height="60" class="">
@@ -10,13 +10,13 @@
       <div class="d-flex ">
         <a class="nav-link" [routerLink]="['home']">Home</a>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-item d-flex gap-2 align-items-center" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Areas de Atuação
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" [routerLink]="[ 'prev' ]" routerLinkActive="active">Direito Previdenciário</a></li>
-            <li><a class="dropdown-item" [routerLink]="[ 'trab' ]" routerLinkActive="active">Direito Trabalhista</a></li>
-            <li><a class="dropdown-item" [routerLink]="[ 'cons' ]" routerLinkActive="active">Direito do Consumidor</a></li>
+          <ul class="dropdown-menu pd-0" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item d-flex" [routerLink]="[ 'prev' ]" routerLinkActive="active">Direito Previdenciário</a></li>
+            <li><a class="dropdown-item d-flex" [routerLink]="[ 'trab' ]" routerLinkActive="active">Direito Trabalhista</a></li>
+            <li><a class="dropdown-item d-flex" [routerLink]="[ 'cons' ]" routerLinkActive="active">Direito do Consumidor</a></li>
           </ul>
         </li>
         <a class="nav-link" [routerLink]="['about']">Sobre</a>
