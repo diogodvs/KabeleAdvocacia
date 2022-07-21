@@ -15,6 +15,7 @@ import { DirconsumidorComponent } from './pages/dirconsumidor/dirconsumidor.comp
 import { DirtrabalhistaComponent } from './pages/dirtrabalhista/dirtrabalhista.component';
 import { FooterComponent } from './componets/template/footer/footer.component';
 import { ContatoComponent } from './pages/contato/contato.component';
+import { WhatsappComponent } from './componets/whatsapp/whatsapp.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { ContatoComponent } from './pages/contato/contato.component';
     DirconsumidorComponent,
     DirtrabalhistaComponent,
     FooterComponent,
-    ContatoComponent
+    ContatoComponent,
+    WhatsappComponent
 
   ],
   imports: [
